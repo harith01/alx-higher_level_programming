@@ -1,3 +1,4 @@
+#include "lists.h"
 /**
  * check_cycle - Checks if a linked list has a cycle
  * @list: pointer to the first element
