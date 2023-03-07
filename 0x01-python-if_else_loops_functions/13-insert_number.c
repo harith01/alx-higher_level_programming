@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stddef.h>
+#include <stdlib.h>
 /**
  * insert_node - Insert a node in an ordered singly linked list
  * @head: head of the list
