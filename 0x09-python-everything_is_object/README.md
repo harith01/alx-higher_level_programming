@@ -42,10 +42,6 @@ OK. But what about this?
     ['x', 2, 3]
     >>> 
     
-
-![](./Project_ 0x09. Python - Everything is object _ Lagos Intranet_files/giphy.gif)  
-  
-
 This project is a little bit different than the usual projects. The first part is only questions about Python’s specificity like “What would be the result of…”. You should **read all documentation first (as usual :))**, then take the time to **think and brainstorm with your peers** about what you think and why. **Try to do this without coding anything for a few hours**.
 
 Trying examples in the Python interpreter will give you most of the answers without having to think about it. **Don’t go this route**. First read, then think, then brainstorm together. Only then you can test in the interpreter.
@@ -122,10 +118,6 @@ Tasks
 
 ### 0\. Who am I?
 
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
-
 What function would you use to print the type of an object?
 
 Write the name of the function in the file, without `()`.
@@ -136,58 +128,8 @@ Write the name of the function in the file, without `()`.
 * Directory: `0x09-python-everything_is_object`
 * File: `0-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "0. Who am I?"
-
-Check your code
-
-×
-
-#### Correction of "0. Who am I?"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 0\. Who am I?
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
 
 ### 1\. Where are you?
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 How do you get the variable identifier (which is the memory address in the CPython implementation)?
 
@@ -199,58 +141,8 @@ Write the name of the function in the file, without `()`.
 * Directory: `0x09-python-everything_is_object`
 * File: `1-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "1. Where are you?"
-
-Check your code
-
-×
-
-#### Correction of "1. Where are you?"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 1\. Where are you?
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
 
 ### 2\. Right count
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 In the following code, do `a` and `b` point to the same object? Answer with `Yes` or `No`.
 
@@ -264,58 +156,7 @@ In the following code, do `a` and `b` point to the same object? Answer with `Yes
 * Directory: `0x09-python-everything_is_object`
 * File: `2-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "2. Right count"
-
-Check your code
-
-×
-
-#### Correction of "2. Right count"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 2\. Right count
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 3\. Right count =
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 In the following code, do `a` and `b` point to the same object? Answer with `Yes` or `No`.
 
@@ -329,58 +170,7 @@ In the following code, do `a` and `b` point to the same object? Answer with `Yes
 * Directory: `0x09-python-everything_is_object`
 * File: `3-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "3. Right count ="
-
-Check your code
-
-×
-
-#### Correction of "3. Right count ="
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 3\. Right count =
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 4\. Right count =
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 In the following code, do `a` and `b` point to the same object? Answer with `Yes` or `No`.
 
@@ -394,58 +184,7 @@ In the following code, do `a` and `b` point to the same object? Answer with `Yes
 * Directory: `0x09-python-everything_is_object`
 * File: `4-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "4. Right count ="
-
-Check your code
-
-×
-
-#### Correction of "4. Right count ="
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 4\. Right count =
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 5\. Right count =+
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 In the following code, do `a` and `b` point to the same object? Answer with `Yes` or `No`.
 
@@ -459,58 +198,7 @@ In the following code, do `a` and `b` point to the same object? Answer with `Yes
 * Directory: `0x09-python-everything_is_object`
 * File: `5-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "5. Right count =+"
-
-Check your code
-
-×
-
-#### Correction of "5. Right count =+"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 5\. Right count =+
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 6\. Is equal
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What do these 3 lines print?
 
@@ -525,58 +213,7 @@ What do these 3 lines print?
 * Directory: `0x09-python-everything_is_object`
 * File: `6-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "6. Is equal"
-
-Check your code
-
-×
-
-#### Correction of "6. Is equal"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 6\. Is equal
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 7\. Is the same
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What do these 3 lines print?
 
@@ -591,58 +228,8 @@ What do these 3 lines print?
 * Directory: `0x09-python-everything_is_object`
 * File: `7-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "7. Is the same"
-
-Check your code
-
-×
-
-#### Correction of "7. Is the same"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 7\. Is the same
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
 
 ### 8\. Is really equal
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What do these 3 lines print?
 
@@ -657,58 +244,7 @@ What do these 3 lines print?
 * Directory: `0x09-python-everything_is_object`
 * File: `8-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "8. Is really equal"
-
-Check your code
-
-×
-
-#### Correction of "8. Is really equal"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 8\. Is really equal
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 9\. Is really the same
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What do these 3 lines print?
 
@@ -723,58 +259,7 @@ What do these 3 lines print?
 * Directory: `0x09-python-everything_is_object`
 * File: `9-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "9. Is really the same"
-
-Check your code
-
-×
-
-#### Correction of "9. Is really the same"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 9\. Is really the same
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 10\. And with a list, is it equal
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What do these 3 lines print?
 
@@ -789,58 +274,7 @@ What do these 3 lines print?
 * Directory: `0x09-python-everything_is_object`
 * File: `10-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "10. And with a list, is it equal"
-
-Check your code
-
-×
-
-#### Correction of "10. And with a list, is it equal"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 10\. And with a list, is it equal
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 11\. And with a list, is it the same
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What do these 3 lines print?
 
@@ -855,58 +289,7 @@ What do these 3 lines print?
 * Directory: `0x09-python-everything_is_object`
 * File: `11-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "11. And with a list, is it the same"
-
-Check your code
-
-×
-
-#### Correction of "11. And with a list, is it the same"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 11\. And with a list, is it the same
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 12\. And with a list, is it really equal
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What do these 3 lines print?
 
@@ -921,58 +304,7 @@ What do these 3 lines print?
 * Directory: `0x09-python-everything_is_object`
 * File: `12-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "12. And with a list, is it really equal"
-
-Check your code
-
-×
-
-#### Correction of "12. And with a list, is it really equal"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 12\. And with a list, is it really equal
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 13\. And with a list, is it really the same
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What do these 3 lines print?
 
@@ -987,58 +319,8 @@ What do these 3 lines print?
 * Directory: `0x09-python-everything_is_object`
 * File: `13-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "13. And with a list, is it really the same"
-
-Check your code
-
-×
-
-#### Correction of "13. And with a list, is it really the same"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 13\. And with a list, is it really the same
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
 
 ### 14\. List append
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What does this script print?
 
@@ -1054,58 +336,7 @@ What does this script print?
 * Directory: `0x09-python-everything_is_object`
 * File: `14-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "14. List append"
-
-Check your code
-
-×
-
-#### Correction of "14. List append"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 14\. List append
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 15\. List add
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What does this script print?
 
@@ -1121,58 +352,7 @@ What does this script print?
 * Directory: `0x09-python-everything_is_object`
 * File: `15-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "15. List add"
-
-Check your code
-
-×
-
-#### Correction of "15. List add"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 15\. List add
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 16\. Integer incrementation
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What does this script print?
 
@@ -1190,58 +370,7 @@ What does this script print?
 * Directory: `0x09-python-everything_is_object`
 * File: `16-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "16. Integer incrementation"
-
-Check your code
-
-×
-
-#### Correction of "16. Integer incrementation"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 16\. Integer incrementation
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 17\. List incrementation
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What does this script print?
 
@@ -1259,58 +388,7 @@ What does this script print?
 * Directory: `0x09-python-everything_is_object`
 * File: `17-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "17. List incrementation"
-
-Check your code
-
-×
-
-#### Correction of "17. List incrementation"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 17\. List incrementation
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 18\. List assignation
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What does this script print?
 
@@ -1329,58 +407,7 @@ What does this script print?
 * Directory: `0x09-python-everything_is_object`
 * File: `18-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "18. List assignation"
-
-Check your code
-
-×
-
-#### Correction of "18. List assignation"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 18\. List assignation
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 19\. Copy a list object
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 Write a function `def copy_list(l):` that returns a **copy** of a list.
 
@@ -1422,58 +449,8 @@ Write a function `def copy_list(l):` that returns a **copy** of a list.
 * Directory: `0x09-python-everything_is_object`
 * File: `19-copy_list.py`
 
-Done?! Help
-
-×
-
-#### Students who are done with "19. Copy a list object"
-
-Check your code
-
-×
-
-#### Correction of "19. Copy a list object"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 19\. Copy a list object
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 20\. Tuple or not?
 
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
     a = ()
     
@@ -1486,58 +463,7 @@ Is `a` a tuple? Answer with `Yes` or `No`.
 * Directory: `0x09-python-everything_is_object`
 * File: `20-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "20. Tuple or not?"
-
-Check your code
-
-×
-
-#### Correction of "20. Tuple or not?"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 20\. Tuple or not?
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 21\. Tuple or not?
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
     a = (1, 2)
     
@@ -1550,58 +476,8 @@ Is `a` a tuple? Answer with `Yes` or `No`.
 * Directory: `0x09-python-everything_is_object`
 * File: `21-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "21. Tuple or not?"
-
-Check your code
-
-×
-
-#### Correction of "21. Tuple or not?"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 21\. Tuple or not?
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 22\. Tuple or not?
 
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
     a = (1)
     
@@ -1614,58 +490,8 @@ Is `a` a tuple? Answer with `Yes` or `No`.
 * Directory: `0x09-python-everything_is_object`
 * File: `22-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "22. Tuple or not?"
-
-Check your code
-
-×
-
-#### Correction of "22. Tuple or not?"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 22\. Tuple or not?
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 23\. Tuple or not?
 
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
     a = (1, )
     
@@ -1678,58 +504,8 @@ Is `a` a tuple? Answer with `Yes` or `No`.
 * Directory: `0x09-python-everything_is_object`
 * File: `23-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "23. Tuple or not?"
-
-Check your code
-
-×
-
-#### Correction of "23. Tuple or not?"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 23\. Tuple or not?
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 24\. Who I am?
 
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What does this script print?
 
@@ -1744,58 +520,7 @@ What does this script print?
 * Directory: `0x09-python-everything_is_object`
 * File: `24-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "24. Who I am?"
-
-Check your code
-
-×
-
-#### Correction of "24. Who I am?"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 24\. Who I am?
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 25\. Tuple or not
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What does this script print?
 
@@ -1810,58 +535,7 @@ What does this script print?
 * Directory: `0x09-python-everything_is_object`
 * File: `25-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "25. Tuple or not"
-
-Check your code
-
-×
-
-#### Correction of "25. Tuple or not"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 25\. Tuple or not
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 26\. Empty is not empty
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
 What does this script print?
 
@@ -1876,58 +550,7 @@ What does this script print?
 * Directory: `0x09-python-everything_is_object`
 * File: `26-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "26. Empty is not empty"
-
-Check your code
-
-×
-
-#### Correction of "26. Empty is not empty"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 26\. Empty is not empty
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 27\. Still the same?
-
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
     >>> id(a)
     139926795932424
@@ -1945,58 +568,8 @@ Will the last line of this script print `139926795932424`? Answer with `Yes` or 
 * Directory: `0x09-python-everything_is_object`
 * File: `27-answer.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "27. Still the same?"
-
-Check your code
-
-×
-
-#### Correction of "27. Still the same?"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 27\. Still the same?
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 28\. Same or not?
 
-mandatory
-
-Score: 50.0% (Checks completed: 100.0%)
 
     >>> a
     [1, 2, 3]
@@ -2013,53 +586,6 @@ Will the last line of this script print `139926795932424`? Answer with `Yes` or 
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x09-python-everything_is_object`
 * File: `28-answer.txt`
-
-Done?! Help
-
-×
-
-#### Students who are done with "28. Same or not?"
-
-Check your code
-
-×
-
-#### Correction of "28. Same or not?"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox QA Review
-
-×
-
-#### 28\. Same or not?
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
 
 ### 29\. #pythonic
 
@@ -2104,58 +630,10 @@ Write a function `magic_string()` that returns a string “BestSchool” n times
 * Directory: `0x09-python-everything_is_object`
 * File: `100-magic_string.py`
 
-Done?! Help
-
-×
-
-#### Students who are done with "29. #pythonic"
-
-Check your code
-
-×
-
-#### Correction of "29. #pythonic"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 29\. #pythonic
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 30\. Low memory cost
 
 #advanced
 
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a class `LockedClass` with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called `first_name`.
 
@@ -2185,58 +663,8 @@ Write a class `LockedClass` with no class or object attribute, that prevents the
 * Directory: `0x09-python-everything_is_object`
 * File: `101-locked_class.py`
 
-Done?! Help
-
-×
-
-#### Students who are done with "30. Low memory cost"
-
-Check your code
-
-×
-
-#### Correction of "30. Low memory cost"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 30\. Low memory cost
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 31\. int 1/3
 
-#advanced
-
-Score: 0.0% (Checks completed: 0.0%)
 
     julien@ubuntu:/python3$ cat int.py 
     a = 1
@@ -2255,58 +683,9 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 * Directory: `0x09-python-everything_is_object`
 * File: `103-line1.txt, 103-line2.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "31. int 1/3"
-
-Check your code
-
-×
-
-#### Correction of "31. int 1/3"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 31\. int 1/3
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 32\. int 2/3
 
 #advanced
-
-Score: 0.0% (Checks completed: 0.0%)
 
     julien@ubuntu:/python3$ cat int.py 
     a = 1024
@@ -2331,58 +710,10 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 * Directory: `0x09-python-everything_is_object`
 * File: `104-line1.txt, 104-line2.txt, 104-line3.txt, 104-line4.txt, 104-line5.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "32. int 2/3"
-
-Check your code
-
-×
-
-#### Correction of "32. int 2/3"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 32\. int 2/3
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 33\. int 3/3
 
 #advanced
 
-Score: 0.0% (Checks completed: 0.0%)
 
     julien@twix:/tmp/so$ cat int.py 
     print("I")
@@ -2406,58 +737,9 @@ Hint: `NSMALLPOSINTS`, `NSMALLNEGINTS`
 * Directory: `0x09-python-everything_is_object`
 * File: `105-line1.txt`
 
-Done?! Help
-
-×
-
-#### Students who are done with "33. int 3/3"
-
-Check your code
-
-×
-
-#### Correction of "33. int 3/3"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 33\. int 3/3
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 34\. Clear strings
 
 #advanced
-
-Score: 0.0% (Checks completed: 0.0%)
 
     guillaume@ubuntu:/python3$ cat string.py 
     a = "SCHL"
@@ -2481,78 +763,4 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x09-python-everything_is_object`
 * File: `106-line1.txt, 106-line2.txt, 106-line3.txt, 106-line4.txt, 106-line5.txt`
-
-Done?! Help
-
-×
-
-#### Students who are done with "34. Clear strings"
-
-Check your code
-
-×
-
-#### Correction of "34. Clear strings"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 34\. Clear strings
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
-×
-
-#### Recommended Sandbox
-
-Running only
-
-### 1 image(1/2 Sandboxes spawned)
-
-### Ubuntu 20.04Asleep
-
-Basic Ubuntu 20.04, with vim, emacs, curl, wget and all needed for Foundations
-
-WakeDestroy
-
-Copyright © 2023 ALX, All rights reserved.
-
-×
-
-#### Markdown Guide
-
-#### Emphasis
-
-****bold****
-*_italics_*
-~~strikethrough~~~
-
 
