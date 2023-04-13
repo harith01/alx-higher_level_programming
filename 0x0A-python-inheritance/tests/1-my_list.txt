@@ -1,0 +1,46 @@
+The MyList class inherits from list
+
+It has a public instance method: print_sorted(self)
+that prints the list in ascending order
+
+Importing MyList class
+>>> MyList = __import__('1-my_list').MyList
+
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> my_list.append(4)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> my_list.append(5)
+>>> my_list.print_sorted()
+[1, 2, 3, 4, 5]
+
+**********************************
+Case 2: Passed a list
+
+>>> a = [10, 4, 7, 2]
+>>> my_list1 = MyList(a)
+>>> my_list1.print_sorted()
+[2, 4, 7, 10]
+
+**********************************
+Case 3: Negative numbers
+
+>>> a = [3, -2, 5, -3]
+>>> my_list2 = MyList(a)
+>>> my_list2.print_sorted()
+[-3, -2, 3, 5]
+
+**********************************
+case 4: Single element
+>>> a = [4]
+>>> my_list3 = MyList(a)
+>>> my_list3.print_sorted()
+[4]
+
+*********************************
+case 5: Strings
+>>> a = ["b", "g", "a", "d", "f", "c", "h", "e"]
+>>> my_list4 = MyList(a)
+>>> my_list4.print_sorted()
+['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
