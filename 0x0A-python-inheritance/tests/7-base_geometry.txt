@@ -1,0 +1,65 @@
+This module validates an integer value
+using a method (integer_validator)
+of BaseGeometry class
+
+**************************************
+**************************************
+Importing module
+
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+
+**************************************
+Creating an Instance of BaseGeometry
+>>> bg = BaseGeometry()
+
+
+**************************************
+Test Case 1: Integer value
+>>> bg.integer_validator("my_int", 12)
+
+
+**************************************
+Test Case 2: String value
+>>> bg.integer_validator("name", "John")
+Traceback (most recent call last):
+          ...
+TypeError: name must be an integer
+
+
+**************************************
+Test Case 3: Negative value
+>>> bg.integer_validator("age", -45)
+Traceback (most recent call last):
+          ...
+ValueError: age must be greater than 0
+
+**************************************
+Test Case 3: Float value
+>>> bg.integer_validator("name", 4.5)
+Traceback (most recent call last):
+          ...
+TypeError: name must be an integer
+
+************************************
+Test Case 4: Zero value
+>>> bg.integer_validator("age", 0)
+Traceback (most recent call last):
+          ...
+ValueError: age must be greater than 0
+
+
+**************************************
+Test Case 5: Boolean value
+>>> bg.integer_validator("name", True)
+Traceback (most recent call last):
+          ...
+TypeError: name must be an integer
+
+
+**************************************
+Test Case 6: list value
+>>> bg.integer_validator("name", [5, 6, 3])
+Traceback (most recent call last):
+          ...
+TypeError: name must be an integer
