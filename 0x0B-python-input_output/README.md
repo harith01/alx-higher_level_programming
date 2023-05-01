@@ -124,10 +124,6 @@ Write a function that reads a text file (`UTF8`) and prints it to stdout:
 
 ### 1\. Write to a file
 
-mandatory
-
-Score: 0.0% (Checks completed: 0.0%)
-
 Write a function that writes a string to a text file (`UTF8`) and returns the number of characters written:
 
 * Prototype: `def write_file(filename="", text=""):`
@@ -158,53 +154,6 @@ Write a function that writes a string to a text file (`UTF8`) and returns the nu
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x0B-python-input_output`
 * File: `1-write_file.py`
-
-Done?! Help
-
-×
-
-#### Students who are done with "1. Write to a file"
-
-Check your code
-
-×
-
-#### Correction of "1. Write to a file"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 1\. Write to a file
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
 
 ### 2\. Append to a file
 
