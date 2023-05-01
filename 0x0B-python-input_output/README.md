@@ -164,10 +164,6 @@ Write a function that returns an object (Python data structure) represented by a
 
 ### 5\. Save Object to a file
 
-mandatory
-
-Score: 0.0% (Checks completed: 0.0%)
-
 Write a function that writes an Object to a text file, using a JSON representation:
 
 * Prototype: `def save_to_json_file(my_obj, filename):`
@@ -175,46 +171,6 @@ Write a function that writes an Object to a text file, using a JSON representati
 * You don’t need to manage exceptions if the object can’t be serialized.
 * You don’t need to manage file permission exceptions.
 
-    guillaume@ubuntu:~/0x0B$ cat 5-main.py
-    #!/usr/bin/python3
-    save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
-    
-    filename = "my_list.json"
-    my_list = [1, 2, 3]
-    save_to_json_file(my_list, filename)
-    
-    filename = "my_dict.json"
-    my_dict = { 
-        'id': 12,
-        'name': "John",
-        'places': [ "San Francisco", "Tokyo" ],
-        'is_active': True,
-        'info': {
-            'age': 36,
-            'average': 3.14
-        }
-    }
-    save_to_json_file(my_dict, filename)
-    
-    try:
-        filename = "my_set.json"
-        my_set = { 132, 3 }
-        save_to_json_file(my_set, filename)
-    except Exception as e:
-        print("[{}] {}".format(e.__class__.__name__, e))
-    
-    guillaume@ubuntu:~/0x0B$ ./5-main.py
-    [TypeError] {3, 132} is not JSON serializable
-    guillaume@ubuntu:~/0x0B$ cat my_list.json ; echo ""
-    [1, 2, 3]
-    guillaume@ubuntu:~/0x0B$ cat my_dict.json ; echo ""
-    {"name": "John", "places": ["San Francisco", "Tokyo"], "id": 12, "info": {"average": 3.14, "age": 36}, "is_active": true}
-    guillaume@ubuntu:~/0x0B$ cat my_set.json ; echo ""
-    
-    guillaume@ubuntu:~/0x0B$ 
-    
-
-**No test cases needed**
 
 **Repo:**
 
@@ -222,58 +178,7 @@ Write a function that writes an Object to a text file, using a JSON representati
 * Directory: `0x0B-python-input_output`
 * File: `5-save_to_json_file.py`
 
-Done?! Help
-
-×
-
-#### Students who are done with "5. Save Object to a file"
-
-Check your code
-
-×
-
-#### Correction of "5. Save Object to a file"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 5\. Save Object to a file
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 6\. Create object from a JSON file
-
-mandatory
-
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a function that creates an Object from a “JSON file”:
 
@@ -282,108 +187,11 @@ Write a function that creates an Object from a “JSON file”:
 * You don’t need to manage exceptions if the JSON string doesn’t represent an object.
 * You don’t need to manage file permissions / exceptions.
 
-    guillaume@ubuntu:~/0x0B$ cat my_fake.json
-    {"is_active": true, 12 }
-    guillaume@ubuntu:~/0x0B$ cat 6-main.py
-    #!/usr/bin/python3
-    load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
-    
-    filename = "my_list.json"
-    my_list = load_from_json_file(filename)
-    print(my_list)
-    print(type(my_list))
-    
-    filename = "my_dict.json"
-    my_dict = load_from_json_file(filename)
-    print(my_dict)
-    print(type(my_dict))
-    
-    try:
-        filename = "my_set_doesnt_exist.json"
-        my_set = load_from_json_file(filename)
-        print(my_set)
-        print(type(my_set))
-    except Exception as e:
-        print("[{}] {}".format(e.__class__.__name__, e))
-    
-    try:
-        filename = "my_fake.json"
-        my_fake = load_from_json_file(filename)
-        print(my_fake)
-        print(type(my_fake))
-    except Exception as e:
-        print("[{}] {}".format(e.__class__.__name__, e))
-    
-    guillaume@ubuntu:~/0x0B$ cat my_list.json ; echo ""
-    [1, 2, 3]
-    guillaume@ubuntu:~/0x0B$ cat my_dict.json ; echo ""
-    {"name": "John", "places": ["San Francisco", "Tokyo"], "id": 12, "info": {"average": 3.14, "age": 36}, "is_active": true}
-    guillaume@ubuntu:~/0x0B$ cat my_fake.json ; echo ""
-    {"is_active": true, 12 }
-    guillaume@ubuntu:~/0x0B$ ./6-main.py
-    [1, 2, 3]
-    <class 'list'>
-    {'name': 'John', 'info': {'age': 36, 'average': 3.14}, 'id': 12, 'places': ['San Francisco', 'Tokyo'], 'is_active': True}
-    <class 'dict'>
-    [FileNotFoundError] [Errno 2] No such file or directory: 'my_set_doesnt_exist.json'
-    [ValueError] Expecting property name enclosed in double quotes: line 1 column 21 (char 20)
-    guillaume@ubuntu:~/0x0B$ 
-    
-
-**No test cases needed**
-
 **Repo:**
 
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x0B-python-input_output`
 * File: `6-load_from_json_file.py`
-
-Done?! Help
-
-×
-
-#### Students who are done with "6. Create object from a JSON file"
-
-Check your code
-
-×
-
-#### Correction of "6. Create object from a JSON file"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 6\. Create object from a JSON file
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
 
 ### 7\. Load, add, save
 
