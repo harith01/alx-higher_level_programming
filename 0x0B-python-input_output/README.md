@@ -87,6 +87,7 @@ Requirements
 
 Tasks
 -----
+### 0. Read file
 
 Write a function that reads a text file (`UTF8`) and prints it to stdout:
 
@@ -94,27 +95,6 @@ Write a function that reads a text file (`UTF8`) and prints it to stdout:
 * You must use the `with` statement
 * You don’t need to manage `file permission` or `file doesn't exist` exceptions.
 * You are not allowed to import any module
-
-    guillaume@ubuntu:~/0x0B$ cat 0-main.py
-    #!/usr/bin/python3
-    read_file = __import__('0-read_file').read_file
-    
-    read_file("my_file_0.txt")
-    
-    guillaume@ubuntu:~/0x0B$ cat my_file_0.txt
-    We offer a truly innovative approach to education:
-    focus on building reliable applications and scalable systems, take on real-world challenges, collaborate with your peers. 
-    
-    A school every software engineer would have dreamt of!
-    guillaume@ubuntu:~/0x0B$ ./0-main.py
-    We offer a truly innovative approach to education:
-    focus on building reliable applications and scalable systems, take on real-world challenges, collaborate with your peers. 
-    
-    A school every software engineer would have dreamt of!
-    guillaume@ubuntu:~/0x0B$ 
-    
-
-**No test cases needed**
 
 **Repo:**
 
@@ -133,22 +113,6 @@ Write a function that writes a string to a text file (`UTF8`) and returns the nu
 * Your function should overwrite the content of the file if it already exists.
 * You are not allowed to import any module
 
-    guillaume@ubuntu:~/0x0B$ cat 1-main.py
-    #!/usr/bin/python3
-    write_file = __import__('1-write_file').write_file
-    
-    nb_characters = write_file("my_first_file.txt", "This School is so cool!\n")
-    print(nb_characters)
-    
-    guillaume@ubuntu:~/0x0B$ ./1-main.py
-    29
-    guillaume@ubuntu:~/0x0B$ cat my_first_file.txt
-    This School is so cool!
-    guillaume@ubuntu:~/0x0B$ 
-    
-
-**No test cases needed**
-
 **Repo:**
 
 * GitHub repository: `alx-higher_level_programming`
@@ -156,10 +120,6 @@ Write a function that writes a string to a text file (`UTF8`) and returns the nu
 * File: `1-write_file.py`
 
 ### 2\. Append to a file
-
-mandatory
-
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a function that appends a string at the end of a text file (`UTF8`) and returns the number of characters added:
 
@@ -169,187 +129,24 @@ Write a function that appends a string at the end of a text file (`UTF8`) and re
 * You don’t need to manage `file permission` or `file doesn't exist` exceptions.
 * You are not allowed to import any module
 
-    guillaume@ubuntu:~/0x0B$ cat 2-main.py
-    #!/usr/bin/python3
-    append_write = __import__('2-append_write').append_write
-    
-    nb_characters_added = append_write("file_append.txt", "This School is so cool!\n")
-    print(nb_characters_added)
-    
-    guillaume@ubuntu:~/0x0B$ cat file_append.txt
-    cat: file_append.txt: No such file or directory
-    guillaume@ubuntu:~/0x0B$ ./2-main.py
-    29
-    guillaume@ubuntu:~/0x0B$ cat file_append.txt
-    This School is so cool!
-    guillaume@ubuntu:~/0x0B$ ./2-main.py
-    29
-    guillaume@ubuntu:~/0x0B$ cat file_append.txt
-    This School is so cool!
-    This School is so cool!
-    guillaume@ubuntu:~/0x0B$ 
-    
-
-**No test cases needed**
-
 **Repo:**
 
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x0B-python-input_output`
 * File: `2-append_write.py`
 
-Done?! Help
-
-×
-
-#### Students who are done with "2. Append to a file"
-
-Check your code
-
-×
-
-#### Correction of "2. Append to a file"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 2\. Append to a file
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 3\. To JSON string
-
-mandatory
-
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a function that returns the JSON representation of an object (string):
 
 * Prototype: `def to_json_string(my_obj):`
 * You don’t need to manage exceptions if the object can’t be serialized.
 
-    guillaume@ubuntu:~/0x0B$ cat 3-main.py
-    #!/usr/bin/python3
-    to_json_string = __import__('3-to_json_string').to_json_string
-    
-    my_list = [1, 2, 3]
-    s_my_list = to_json_string(my_list)
-    print(s_my_list)
-    print(type(s_my_list))
-    
-    my_dict = { 
-        'id': 12,
-        'name': "John",
-        'places': [ "San Francisco", "Tokyo" ],
-        'is_active': True,
-        'info': {
-            'age': 36,
-            'average': 3.14
-        }
-    }
-    s_my_dict = to_json_string(my_dict)
-    print(s_my_dict)
-    print(type(s_my_dict))
-    
-    try:
-        my_set = { 132, 3 }
-        s_my_set = to_json_string(my_set)
-        print(s_my_set)
-        print(type(s_my_set))
-    except Exception as e:
-        print("[{}] {}".format(e.__class__.__name__, e))
-    
-    guillaume@ubuntu:~/0x0B$ ./3-main.py
-    [1, 2, 3]
-    <class 'str'>
-    {"id": 12, "is_active": true, "name": "John", "info": {"average": 3.14, "age": 36}, "places": ["San Francisco", "Tokyo"]}
-    <class 'str'>
-    [TypeError] {3, 132} is not JSON serializable
-    guillaume@ubuntu:~/0x0B$ 
-    
-
-**No test cases needed**
-
 **Repo:**
 
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x0B-python-input_output`
 * File: `3-to_json_string.py`
-
-Done?! Help
-
-×
-
-#### Students who are done with "3. To JSON string"
-
-Check your code
-
-×
-
-#### Correction of "3. To JSON string"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 3\. To JSON string
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
 
 ### 4\. From JSON string to Object
 
