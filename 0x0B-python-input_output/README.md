@@ -195,10 +195,6 @@ Write a function that creates an Object from a “JSON file”:
 
 ### 7\. Load, add, save
 
-mandatory
-
-Score: 0.0% (Checks completed: 0.0%)
-
 Write a script that adds all arguments to a Python list, and then save them to a file:
 
 * You must use your function `save_to_json_file` from `5-save_to_json_file.py`
@@ -207,74 +203,12 @@ Write a script that adds all arguments to a Python list, and then save them to a
 * If the file doesn’t exist, it should be created
 * You don’t need to manage file permissions / exceptions.
 
-    guillaume@ubuntu:~/0x0B$ cat add_item.json
-    cat: add_item.json: No such file or directory
-    guillaume@ubuntu:~/0x0B$ ./7-add_item.py
-    guillaume@ubuntu:~/0x0B$ cat add_item.json ; echo ""
-    []
-    guillaume@ubuntu:~/0x0B$ ./7-add_item.py Best School
-    guillaume@ubuntu:~/0x0B$ cat add_item.json ; echo ""
-    ["Best", "School"]
-    guillaume@ubuntu:~/0x0B$ ./7-add_item.py 89 Python C
-    guillaume@ubuntu:~/0x0B$ cat add_item.json ; echo ""
-    ["Best", "School", "89", "Python", "C"]
-    guillaume@ubuntu:~/0x0B$ 
-    
-
-**No test cases needed**
 
 **Repo:**
 
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x0B-python-input_output`
 * File: `7-add_item.py`
-
-Done?! Help
-
-×
-
-#### Students who are done with "7. Load, add, save"
-
-Check your code
-
-×
-
-#### Correction of "7. Load, add, save"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 7\. Load, add, save
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
 
 ### 8\. Class to JSON
 
