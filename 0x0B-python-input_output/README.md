@@ -88,12 +88,6 @@ Requirements
 Tasks
 -----
 
-### 0\. Read file
-
-mandatory
-
-Score: 0.0% (Checks completed: 0.0%)
-
 Write a function that reads a text file (`UTF8`) and prints it to stdout:
 
 * Prototype: `def read_file(filename=""):`
@@ -127,53 +121,6 @@ Write a function that reads a text file (`UTF8`) and prints it to stdout:
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x0B-python-input_output`
 * File: `0-read_file.py`
-
-Done?! Help
-
-×
-
-#### Students who are done with "0. Read file"
-
-Check your code
-
-×
-
-#### Correction of "0. Read file"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 0\. Read file
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
 
 ### 1\. Write to a file
 
