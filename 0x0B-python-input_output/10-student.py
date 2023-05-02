@@ -21,10 +21,10 @@ class Student:
             for attr in attrs:
                 if type(attr) is not str:
                     return obj
-            d_list = {}
+            d = {}
             for attr in attrs:
                 for obj_attr in obj:
                     if attr == obj_attr:
                         d[attr] = obj[obj_attr]
-            return d_list
-    return obj
+            return d
+        return obj
