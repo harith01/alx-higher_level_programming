@@ -212,10 +212,6 @@ Write a script that adds all arguments to a Python list, and then save them to a
 
 ### 8\. Class to JSON
 
-mandatory
-
-Score: 0.0% (Checks completed: 0.0%)
-
 Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object:
 
 * Prototype: `def class_to_json(obj):`
@@ -223,149 +219,13 @@ Write a function that returns the dictionary description with simple data struct
 * All attributes of the `obj` Class are serializable: list, dictionary, string, integer and boolean
 * You are not allowed to import any module
 
-    guillaume@ubuntu:~/0x0B$ cat 8-my_class.py 
-    #!/usr/bin/python3
-    """ My class module
-    """
-    
-    class MyClass:
-        """ My class
-        """
-    
-        def __init__(self, name):
-            self.name = name
-            self.number = 0
-    
-        def __str__(self):
-            return "[MyClass] {} - {:d}".format(self.name, self.number)
-    
-    guillaume@ubuntu:~/0x0B$ cat 8-main.py 
-    #!/usr/bin/python3
-    MyClass = __import__('8-my_class').MyClass
-    class_to_json = __import__('8-class_to_json').class_to_json
-    
-    m = MyClass("John")
-    m.number = 89
-    print(type(m))
-    print(m)
-    
-    mj = class_to_json(m)
-    print(type(mj))
-    print(mj)
-    
-    guillaume@ubuntu:~/0x0B$ ./8-main.py 
-    <class '8-my_class.MyClass'>
-    [MyClass] John - 89
-    <class 'dict'>
-    {'name': 'John', 'number': 89}
-    guillaume@ubuntu:~/0x0B$ 
-    guillaume@ubuntu:~/0x0B$ cat 8-my_class_2.py 
-    #!/usr/bin/python3
-    """ My class module
-    """
-    
-    class MyClass:
-        """ My class
-        """
-    
-        score = 0
-    
-        def __init__(self, name, number = 4):
-            self.__name = name
-            self.number = number
-            self.is_team_red = (self.number % 2) == 0
-    
-        def win(self):
-            self.score += 1
-    
-        def lose(self):
-            self.score -= 1
-    
-        def __str__(self):
-            return "[MyClass] {} - {:d} => {:d}".format(self.__name, self.number, self.score)
-    
-    guillaume@ubuntu:~/0x0B$ cat 8-main_2.py 
-    #!/usr/bin/python3
-    MyClass = __import__('8-my_class_2').MyClass
-    class_to_json = __import__('8-class_to_json').class_to_json
-    
-    m = MyClass("John")
-    m.win()
-    print(type(m))
-    print(m)
-    
-    mj = class_to_json(m)
-    print(type(mj))
-    print(mj)
-    
-    guillaume@ubuntu:~/0x0B$ ./8-main_2.py 
-    <class '8-my_class_2.MyClass'>
-    [MyClass] John - 4 => 1
-    <class 'dict'>
-    {'number': 4, '_MyClass__name': 'John', 'is_team_red': True, 'score': 1}
-    guillaume@ubuntu:~/0x0B$
-    
-
-**No test cases needed**
-
 **Repo:**
 
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x0B-python-input_output`
 * File: `8-class_to_json.py`
 
-Done?! Help
-
-×
-
-#### Students who are done with "8. Class to JSON"
-
-Check your code
-
-×
-
-#### Correction of "8. Class to JSON"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 8\. Class to JSON
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 9\. Student to JSON
-
-mandatory
-
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a class `Student` that defines a student by:
 
@@ -377,94 +237,15 @@ Write a class `Student` that defines a student by:
 * Public method `def to_json(self):` that retrieves a dictionary representation of a `Student` instance (same as `8-class_to_json.py`)
 * You are not allowed to import any module
 
-    guillaume@ubuntu:~/0x0B$ cat 9-main.py 
-    #!/usr/bin/python3
-    Student = __import__('9-student').Student
-    
-    students = [Student("John", "Doe", 23), Student("Bob", "Dylan", 27)]
-    
-    for student in students:
-        j_student = student.to_json()
-        print(type(j_student))
-        print(j_student['first_name'])
-        print(type(j_student['first_name']))
-        print(j_student['age'])
-        print(type(j_student['age']))
-    
-    guillaume@ubuntu:~/0x0B$ ./9-main.py 
-    <class 'dict'>
-    John
-    <class 'str'>
-    23
-    <class 'int'>
-    <class 'dict'>
-    Bob
-    <class 'str'>
-    27
-    <class 'int'>
-    guillaume@ubuntu:~/0x0B$ 
-    
-
-**No test cases needed**
-
 **Repo:**
 
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x0B-python-input_output`
 * File: `9-student.py`
 
-Done?! Help
-
-×
-
-#### Students who are done with "9. Student to JSON"
-
-Check your code
-
-×
-
-#### Correction of "9. Student to JSON"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 9\. Student to JSON
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
 
 ### 10\. Student to JSON with filter
 
-mandatory
-
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a class `Student` that defines a student by: (based on `9-student.py`)
 
@@ -478,88 +259,14 @@ Write a class `Student` that defines a student by: (based on `9-student.py`)
     * Otherwise, all attributes must be retrieved
 * You are not allowed to import any module
 
-    guillaume@ubuntu:~/0x0B$ cat 10-main.py 
-    #!/usr/bin/python3
-    Student = __import__('10-student').Student
-    
-    student_1 = Student("John", "Doe", 23)
-    student_2 = Student("Bob", "Dylan", 27)
-    
-    j_student_1 = student_1.to_json()
-    j_student_2 = student_2.to_json(['first_name', 'age'])
-    j_student_3 = student_2.to_json(['middle_name', 'age'])
-    
-    print(j_student_1)
-    print(j_student_2)
-    print(j_student_3)
-    
-    guillaume@ubuntu:~/0x0B$ ./10-main.py 
-    {'age': 23, 'last_name': 'Doe', 'first_name': 'John'}
-    {'age': 27, 'first_name': 'Bob'}
-    {'age': 27}
-    guillaume@ubuntu:~/0x0B$
-    
-
-**No test cases needed**
-
 **Repo:**
 
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x0B-python-input_output`
 * File: `10-student.py`
 
-Done?! Help
-
-×
-
-#### Students who are done with "10. Student to JSON with filter"
-
-Check your code
-
-×
-
-#### Correction of "10. Student to JSON with filter"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 10\. Student to JSON with filter
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 11\. Student to disk and reload
 
-mandatory
-
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a class `Student` that defines a student by: (based on `10-student.py`)
 
@@ -579,131 +286,14 @@ Write a class `Student` that defines a student by: (based on `10-student.py`)
 
 Now, you have a simple implementation of a serialization and deserialization mechanism (concept of representation of an object to another format, without losing any information and allow us to rebuild an object based on this representation)
 
-    guillaume@ubuntu:~/0x0B$ cat 11-main.py 
-    #!/usr/bin/python3
-    import os
-    import sys
-    
-    Student = __import__('11-student').Student
-    read_file = __import__('0-read_file').read_file
-    save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
-    load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
-    
-    path = sys.argv[1]
-    
-    if os.path.exists(path):
-        os.remove(path)
-    
-    student_1 = Student("John", "Doe", 23)
-    j_student_1 = student_1.to_json()
-    print("Initial student:")
-    print(student_1)
-    print(type(student_1))
-    print(type(j_student_1))
-    print("{} {} {}".format(student_1.first_name, student_1.last_name, student_1.age))
-    
-    
-    save_to_json_file(j_student_1, path)
-    read_file(path)
-    print("\nSaved to disk")
-    
-    
-    print("Fake student:")
-    new_student_1 = Student("Fake", "Fake", 89)
-    print(new_student_1)
-    print(type(new_student_1))
-    print("{} {} {}".format(new_student_1.first_name, new_student_1.last_name, new_student_1.age))
-    
-    
-    print("Load dictionary from file:")
-    new_j_student_1 = load_from_json_file(path)
-    
-    new_student_1.reload_from_json(j_student_1)
-    print(new_student_1)
-    print(type(new_student_1))
-    print("{} {} {}".format(new_student_1.first_name, new_student_1.last_name, new_student_1.age))
-    
-    guillaume@ubuntu:~/0x0B$ ./11-main.py student.json
-    Initial student:
-    <11-student.Student object at 0x7f832826eda0>
-    <class '11-student.Student'>
-    <class 'dict'>
-    John Doe 23
-    {"last_name": "Doe", "first_name": "John", "age": 23}
-    Saved to disk
-    Fake student:
-    <11-student.Student object at 0x7f832826edd8>
-    <class '11-student.Student'>
-    Fake Fake 89
-    Load dictionary from file:
-    <11-student.Student object at 0x7f832826edd8>
-    <class '11-student.Student'>
-    John Doe 23
-    guillaume@ubuntu:~/0x0B$ cat student.json ; echo ""
-    {"last_name": "Doe", "first_name": "John", "age": 23}
-    guillaume@ubuntu:~/0x0B$ 
-    
-
-**No test cases needed**
-
 **Repo:**
 
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x0B-python-input_output`
 * File: `11-student.py`
 
-Done?! Help
-
-×
-
-#### Students who are done with "11. Student to disk and reload"
-
-Check your code
-
-×
-
-#### Correction of "11. Student to disk and reload"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 11\. Student to disk and reload
-
-##### Commit used:
-
-* **User:** \-\-\-
-* **URL:** Click here
-* **ID:** `---`
-* **Author:** \-\-\-
-* **Subject:** _\-\-\-_
-* **Date:** \-\-\-
-
 ### 12\. Pascal's Triangle
 
-mandatory
-
-Score: 0.0% (Checks completed: 0.0%)
 
 **Technical interview preparation**:
 
@@ -715,34 +305,6 @@ Create a function `def pascal_triangle(n):` that returns a list of lists of inte
 * Returns an empty list if `n <= 0`
 * You can assume `n` will be always an integer
 * You are not allowed to import any module
-
-    guillaume@ubuntu:~/0x0B$ cat 12-main.py
-    #!/usr/bin/python3
-    """
-    12-main
-    """
-    pascal_triangle = __import__('12-pascal_triangle').pascal_triangle
-    
-    def print_triangle(triangle):
-        """
-        Print the triangle
-        """
-        for row in triangle:
-            print("[{}]".format(",".join([str(x) for x in row])))
-    
-    
-    if __name__ == "__main__":
-        print_triangle(pascal_triangle(5))
-    
-    guillaume@ubuntu:~/0x0B$ 
-    guillaume@ubuntu:~/0x0B$ ./12-main.py
-    [1]
-    [1,1]
-    [1,2,1]
-    [1,3,3,1]
-    [1,4,6,4,1]
-    guillaume@ubuntu:~/0x0B$ 
-    
 
 **Repo:**
 
