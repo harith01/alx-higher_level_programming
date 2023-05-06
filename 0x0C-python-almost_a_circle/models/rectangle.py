@@ -36,7 +36,7 @@ class Rectangle(Base):
     @height.setter
     def height(self, value):
         """Set the height of the rectangle to value"""
-        self.__width = value
+        self.__height = value
 
     @property
     def x(self):
