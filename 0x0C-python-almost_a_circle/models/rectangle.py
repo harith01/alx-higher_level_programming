@@ -5,7 +5,6 @@ from models.base import Base
 
 class Rectangle(Base):
     """Creates a representationof a rectangle
-
     Private instance attributes:
     """
 
@@ -59,7 +58,7 @@ class Rectangle(Base):
 
         if type(value) != int:
             raise TypeError('x must be an integer')
-        if x < 0:
+        if value < 0:
             raise ValueError('x must be >= 0')
         self.__x = value
 
@@ -74,6 +73,6 @@ class Rectangle(Base):
 
         if type(value) != int:
             raise TypeError('y must be an integer')
-        if y < 0:
+        if value < 0:
             raise ValueError('y must be >= 0')
         self.__y = value
