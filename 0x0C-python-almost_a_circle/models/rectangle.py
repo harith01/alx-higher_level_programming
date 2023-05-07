@@ -98,9 +98,11 @@ class Rectangle(Base):
                                                        self.x, self.y,
                                                        self.width, self.height)
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """Update an instance of Rectangle by assiging an argument
         to each attribute.
+
+        If *args exist and not empty, **kwargs must be skipped
 
         1st Argument: id
         2nd Argument: width
@@ -109,7 +111,7 @@ class Rectangle(Base):
         5th Argument: y
         """
 
-        if len(args) != 0:
+        if args and len(args) != 0:
             a = 0
             for arg in args:
                 if a == 0:
@@ -123,3 +125,15 @@ class Rectangle(Base):
                 elif a == 4:
                     self.y = arg
                 a += 1
+        elif kwargs and len(kwargs) != 0:
+            for key, value in kwargs.items():
+                if key == 'id':
+                    self.id = value
+                if key == 'width':
+                    self.width = value
+                if key == 'height':
+                    self.height = value
+                if key == 'x':
+                    self.x = value
+                if key == 'y':
+                    self.y = value
