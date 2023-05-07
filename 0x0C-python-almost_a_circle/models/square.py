@@ -22,5 +22,5 @@ class Square(Rectangle):
         """Override __str___"""
 
         return "[Square] ({}) {}/{} - {}".format(self.id,
-                                                       self.x, self.y,
-                                                       self.height)
+                                                 self.x, self.y,
+                                                 self.height)
