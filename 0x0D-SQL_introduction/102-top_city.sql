@@ -4,4 +4,4 @@ FROM temperatures
 GROUP BY city
 WHERE month BETWEEN 7 AND 8
 ORDER BY avg_temp DESC
-LIMIT 3
+LIMIT 3;
