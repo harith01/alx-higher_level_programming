@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""A script that takes in an argument
-   and displays all values in the states table
-   from the database hbtn_0e_0_usa
+"""A script that lists all cities
+   from the database hbtn_0e_4_usa
 """
 
 if __name__ == "__main__":
