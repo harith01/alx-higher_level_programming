@@ -8,8 +8,7 @@ if __name__ == "__main__":
     db = MySQLdb.connect(user=sys.argv[1], port=3306,
                          passwd=sys.argv[2], db=sys.argv[3])
     cur = db.cursor()
-    query = "SELECT * FROM states WHERE LEFT(name, 1) = 'N' ORDER BY id ASC"
+    query = "SELECT * FROM states ORDER BY id ASC"
     cur.execute(query)
     rows = cur.fetchall()
-    for row in rows:
-        print(row)
+    [print(row) for row in rows if row[1][0] == "N"]
